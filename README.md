@@ -25,7 +25,9 @@
 
 
 # 要求
+
 iOS 8.0+ 
+
 Xcode 8.0+ 
 
 # 安装
@@ -34,6 +36,7 @@ Xcode 8.0+
     2. `pod install` 
 
 * 手动拖入
+
     下载代码并将`STNavigaionBar`文件夹拖入到项目中，导入头文件`#import "STNavigationBar.h"`即可。
 
 # 使用说明
@@ -78,9 +81,8 @@ Xcode 8.0+
 
 * 解决UIScrollView和手势pop冲突
 
-自定义一个UIScrollView，实现如下方法:
-
 ```
+// 自定义一个UIScrollView，实现如下方法:
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
     if (self.contentOffset.x <= 0) {
         if ([otherGestureRecognizer.delegate isKindOfClass:[STFullscreenPopGestureRecognizerDelegate class]]) {
