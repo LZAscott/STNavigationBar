@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "STNavigationBar"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "一行代码设置状态栏样式和导航栏背景颜色、标题、按钮、透明度以及全屏pop手势支持"
   s.homepage     = "https://github.com/LZAscott/STNavigationBar"
   s.license      = "MIT"
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/LZAscott/STNavigationBar.git", :tag => s.version }
 
-  s.source_files  = "STNavigationBar", "STNavigationBar/STNavigationBar/**/*.{h,m}"
+  s.source_files  = "STNavigationBar", "STNavigationBar/STNavigationBar/*.{h,m}"
   s.requires_arc = true
 
 end
