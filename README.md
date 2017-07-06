@@ -46,9 +46,9 @@ Xcode 8.0+
 
 ```
 [UIColor st_setDefaultNavigationBarBarTintColor:STMainNavBarColor];
-    [UIColor st_setDefaultNavigationBarTintColor:STNaviBarTintColor];
-    [UIColor st_setDefaultNavigationBarTitleColor:STNaviBarTitleColor];
-    [UIColor st_setDefaultStatusBarStyle:UIStatusBarStyleLightContent];
+[UIColor st_setDefaultNavigationBarTintColor:STNaviBarTintColor];
+[UIColor st_setDefaultNavigationBarTitleColor:STNaviBarTitleColor];
+[UIColor st_setDefaultStatusBarStyle:UIStatusBarStyleLightContent];
 ```
 
 * 设置单个控制器导航栏样式
