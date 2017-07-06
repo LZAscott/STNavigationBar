@@ -8,7 +8,7 @@
 
 #import "STSinaSubTableViewController.h"
 #import "STNavigationBar.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 
 NSString * const kSTSinaSubScrollViewDidScrollNotification = @"kSTSinaSubScrollViewDidScrollNotification";
 NSString * const kSTSinaSubTableViewControllerScrollViewKey = @"kSTSinaSubTableViewControllerScrollViewKey";

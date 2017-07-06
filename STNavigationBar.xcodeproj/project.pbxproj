@@ -74,7 +74,6 @@
 		228A1C601F03A4550040DC76 /* STBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewController.m; sourceTree = "<group>"; };
 		228A1C621F03A46E0040DC76 /* STCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCustomViewController.h; sourceTree = "<group>"; };
 		228A1C631F03A46E0040DC76 /* STCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCustomViewController.m; sourceTree = "<group>"; };
-		228A1C661F03A8480040DC76 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		228CE5F21F05FEE7008ED16C /* background_image_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_image_default@2x.png"; sourceTree = "<group>"; };
 		228CE5F31F05FEE7008ED16C /* ScottPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottPageView.h; sourceTree = "<group>"; };
 		228CE5F41F05FEE7008ED16C /* ScottPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottPageView.m; sourceTree = "<group>"; };
@@ -198,7 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				228CE5F11F05FEE7008ED16C /* ScottPageView */,
-				228A1C651F03A8320040DC76 /* Macro */,
 				228A1C541F039F630040DC76 /* Custom */,
 				228A1C551F039F630040DC76 /* Normal */,
 			);
@@ -235,14 +233,6 @@
 				22AF581D1F0A407E0017B2DD /* STScrollView.m */,
 			);
 			path = Normal;
-			sourceTree = "<group>";
-		};
-		228A1C651F03A8320040DC76 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				228A1C661F03A8480040DC76 /* Macro.h */,
-			);
-			path = Macro;
 			sourceTree = "<group>";
 		};
 		228CE5F11F05FEE7008ED16C /* ScottPageView */ = {

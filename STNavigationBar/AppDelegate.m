@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "STTabBarController.h"
-#import "Macro.h"
 #import "STNavigationBar.h"
 
 

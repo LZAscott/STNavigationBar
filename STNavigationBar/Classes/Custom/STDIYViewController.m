@@ -8,7 +8,7 @@
 
 #import "STDIYViewController.h"
 #import "STNavigationBar.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 
 @interface STDIYViewController ()<UITableViewDataSource, UITableViewDelegate>
 

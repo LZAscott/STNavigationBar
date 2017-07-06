@@ -9,7 +9,7 @@
 #import "STZhihuController.h"
 #import "STNavigationBar.h"
 #import "ScottPageView.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 #import "STViewController.h"
 
 static CGFloat kBannerHeight = 180;

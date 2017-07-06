@@ -7,7 +7,7 @@
 //
 
 #import "STNormalViewController.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 #import "STAntForestController.h"
 #import "STQQZoneController.h"
 #import "STZhihuController.h"

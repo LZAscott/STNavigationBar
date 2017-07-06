@@ -7,7 +7,7 @@
 //
 
 #import "STCustomViewController.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 #import "STProfileViewController.h"
 
 @interface STCustomViewController ()<UITableViewDataSource, UITableViewDelegate>

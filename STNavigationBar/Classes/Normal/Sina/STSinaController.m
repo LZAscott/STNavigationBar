@@ -12,7 +12,7 @@
 #import "STSinaHeaderView.h"
 #import "STSinaToolBar.h"
 #import "STSinaCellContentView.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 #import "STSinaSubTableViewController.h"
 
 static CGFloat kSinaHeaderViewHeight = 250.0;

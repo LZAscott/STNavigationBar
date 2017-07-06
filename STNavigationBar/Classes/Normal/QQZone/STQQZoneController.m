@@ -7,7 +7,7 @@
 //
 
 #import "STQQZoneController.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 #import "STNavigationBar.h"
 #import "STQQZoneHeaderView.h"
 #import "STViewController.h"

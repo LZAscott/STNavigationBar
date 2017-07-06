@@ -9,7 +9,7 @@
 #import "STViewController.h"
 #import "STNavigationBar.h"
 #import "STScrollView.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 
 @interface STViewController ()
 

@@ -8,7 +8,7 @@
 
 #import "STProfileViewController.h"
 #import "STNavigationBar.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 #import "STDIYViewController.h"
 
 static CGFloat kHeaderViewHeight = 250.0;

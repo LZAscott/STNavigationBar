@@ -8,7 +8,7 @@
 
 #import "STBaseViewController.h"
 #import "STNavigationBar.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 
 @interface STBaseViewController ()
 

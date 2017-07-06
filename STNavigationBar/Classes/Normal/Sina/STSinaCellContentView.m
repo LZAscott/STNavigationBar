@@ -8,7 +8,7 @@
 
 #import "STSinaCellContentView.h"
 #import "STSinaSubTableViewController.h"
-#import "Macro.h"
+#import "AppDelegate.h"
 
 @interface STSinaCellContentView ()<UIScrollViewDelegate>
 
