@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		223AAB5F1F0F251300829D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB5E1F0F251300829D69 /* main.m */; };
+		223AAB621F0F251300829D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB611F0F251300829D69 /* AppDelegate.m */; };
+		223AAB681F0F251300829D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223AAB661F0F251300829D69 /* Main.storyboard */; };
+		223AAB6A1F0F251300829D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223AAB691F0F251300829D69 /* Assets.xcassets */; };
+		223AAB6D1F0F251300829D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223AAB6B1F0F251300829D69 /* LaunchScreen.storyboard */; };
+		223AAB781F0F251300829D69 /* STNavigationBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB771F0F251300829D69 /* STNavigationBarDemoTests.m */; };
+		223AAB8C1F0F257600829D69 /* UIColor+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB851F0F257600829D69 /* UIColor+STExtension.m */; };
+		223AAB8D1F0F257600829D69 /* UINavigationBar+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB871F0F257600829D69 /* UINavigationBar+STExtension.m */; };
+		223AAB8E1F0F257600829D69 /* UINavigationController+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB891F0F257600829D69 /* UINavigationController+STExtension.m */; };
+		223AAB8F1F0F257600829D69 /* UIViewController+STExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB8B1F0F257600829D69 /* UIViewController+STExtension.m */; };
+		223AAB941F0F25B800829D69 /* STNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB911F0F25B800829D69 /* STNavigationController.m */; };
+		223AAB951F0F25B800829D69 /* STTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB931F0F25B800829D69 /* STTabBarController.m */; };
+		223AABCA1F0F25E100829D69 /* STBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB991F0F25E100829D69 /* STBaseViewController.m */; };
+		223AABCB1F0F25E100829D69 /* STCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB9B1F0F25E100829D69 /* STCustomViewController.m */; };
+		223AABCC1F0F25E100829D69 /* STDIYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB9D1F0F25E100829D69 /* STDIYViewController.m */; };
+		223AABCD1F0F25E100829D69 /* STProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AAB9F1F0F25E100829D69 /* STProfileViewController.m */; };
+		223AABCE1F0F25E100829D69 /* STAntForestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABA41F0F25E100829D69 /* STAntForestController.m */; };
+		223AABCF1F0F25E100829D69 /* STQQZoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABA71F0F25E100829D69 /* STQQZoneController.m */; };
+		223AABD01F0F25E100829D69 /* STQQZoneHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABA91F0F25E100829D69 /* STQQZoneHeaderView.m */; };
+		223AABD11F0F25E100829D69 /* STQQZoneHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223AABAA1F0F25E100829D69 /* STQQZoneHeaderView.xib */; };
+		223AABD21F0F25E100829D69 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABAE1F0F25E100829D69 /* HMSegmentedControl.m */; };
+		223AABD31F0F25E100829D69 /* STCustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABB01F0F25E100829D69 /* STCustomTableView.m */; };
+		223AABD41F0F25E100829D69 /* STSinaCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABB21F0F25E100829D69 /* STSinaCellContentView.m */; };
+		223AABD51F0F25E100829D69 /* STSinaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABB41F0F25E100829D69 /* STSinaController.m */; };
+		223AABD61F0F25E100829D69 /* STSinaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223AABB51F0F25E100829D69 /* STSinaController.xib */; };
+		223AABD71F0F25E100829D69 /* STSinaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABB71F0F25E100829D69 /* STSinaHeaderView.m */; };
+		223AABD81F0F25E100829D69 /* STSinaHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223AABB81F0F25E100829D69 /* STSinaHeaderView.xib */; };
+		223AABD91F0F25E100829D69 /* STSinaSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABBA1F0F25E100829D69 /* STSinaSubTableViewController.m */; };
+		223AABDA1F0F25E100829D69 /* STSinaToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABBC1F0F25E100829D69 /* STSinaToolBar.m */; };
+		223AABDB1F0F25E100829D69 /* STNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABBE1F0F25E100829D69 /* STNormalViewController.m */; };
+		223AABDC1F0F25E100829D69 /* STScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABC01F0F25E100829D69 /* STScrollView.m */; };
+		223AABDD1F0F25E100829D69 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABC21F0F25E100829D69 /* STViewController.m */; };
+		223AABDE1F0F25E100829D69 /* STZhihuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABC51F0F25E100829D69 /* STZhihuController.m */; };
+		223AABDF1F0F25E100829D69 /* background_image_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223AABC71F0F25E100829D69 /* background_image_default@2x.png */; };
+		223AABE01F0F25E100829D69 /* ScottPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABC91F0F25E100829D69 /* ScottPageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		223AAB741F0F251300829D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223AAB521F0F251300829D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223AAB591F0F251300829D69;
+			remoteInfo = STNavigationBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		223AAB5A1F0F251300829D69 /* STNavigationBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STNavigationBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223AAB5E1F0F251300829D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		223AAB601F0F251300829D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		223AAB611F0F251300829D69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		223AAB671F0F251300829D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		223AAB691F0F251300829D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		223AAB6C1F0F251300829D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		223AAB6E1F0F251300829D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223AAB731F0F251300829D69 /* STNavigationBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STNavigationBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223AAB771F0F251300829D69 /* STNavigationBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STNavigationBarDemoTests.m; sourceTree = "<group>"; };
+		223AAB791F0F251300829D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223AAB831F0F257600829D69 /* STNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNavigationBar.h; sourceTree = "<group>"; };
+		223AAB841F0F257600829D69 /* UIColor+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+STExtension.h"; sourceTree = "<group>"; };
+		223AAB851F0F257600829D69 /* UIColor+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+STExtension.m"; sourceTree = "<group>"; };
+		223AAB861F0F257600829D69 /* UINavigationBar+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+STExtension.h"; sourceTree = "<group>"; };
+		223AAB871F0F257600829D69 /* UINavigationBar+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+STExtension.m"; sourceTree = "<group>"; };
+		223AAB881F0F257600829D69 /* UINavigationController+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+STExtension.h"; sourceTree = "<group>"; };
+		223AAB891F0F257600829D69 /* UINavigationController+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+STExtension.m"; sourceTree = "<group>"; };
+		223AAB8A1F0F257600829D69 /* UIViewController+STExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+STExtension.h"; sourceTree = "<group>"; };
+		223AAB8B1F0F257600829D69 /* UIViewController+STExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+STExtension.m"; sourceTree = "<group>"; };
+		223AAB901F0F25B800829D69 /* STNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNavigationController.h; sourceTree = "<group>"; };
+		223AAB911F0F25B800829D69 /* STNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNavigationController.m; sourceTree = "<group>"; };
+		223AAB921F0F25B800829D69 /* STTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTabBarController.h; sourceTree = "<group>"; };
+		223AAB931F0F25B800829D69 /* STTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTabBarController.m; sourceTree = "<group>"; };
+		223AAB981F0F25E100829D69 /* STBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseViewController.h; sourceTree = "<group>"; };
+		223AAB991F0F25E100829D69 /* STBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewController.m; sourceTree = "<group>"; };
+		223AAB9A1F0F25E100829D69 /* STCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCustomViewController.h; sourceTree = "<group>"; };
+		223AAB9B1F0F25E100829D69 /* STCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCustomViewController.m; sourceTree = "<group>"; };
+		223AAB9C1F0F25E100829D69 /* STDIYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDIYViewController.h; sourceTree = "<group>"; };
+		223AAB9D1F0F25E100829D69 /* STDIYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDIYViewController.m; sourceTree = "<group>"; };
+		223AAB9E1F0F25E100829D69 /* STProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STProfileViewController.h; sourceTree = "<group>"; };
+		223AAB9F1F0F25E100829D69 /* STProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STProfileViewController.m; sourceTree = "<group>"; };
+		223AABA31F0F25E100829D69 /* STAntForestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAntForestController.h; sourceTree = "<group>"; };
+		223AABA41F0F25E100829D69 /* STAntForestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAntForestController.m; sourceTree = "<group>"; };
+		223AABA61F0F25E100829D69 /* STQQZoneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STQQZoneController.h; sourceTree = "<group>"; };
+		223AABA71F0F25E100829D69 /* STQQZoneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STQQZoneController.m; sourceTree = "<group>"; };
+		223AABA81F0F25E100829D69 /* STQQZoneHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STQQZoneHeaderView.h; sourceTree = "<group>"; };
+		223AABA91F0F25E100829D69 /* STQQZoneHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STQQZoneHeaderView.m; sourceTree = "<group>"; };
+		223AABAA1F0F25E100829D69 /* STQQZoneHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STQQZoneHeaderView.xib; sourceTree = "<group>"; };
+		223AABAD1F0F25E100829D69 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		223AABAE1F0F25E100829D69 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		223AABAF1F0F25E100829D69 /* STCustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCustomTableView.h; sourceTree = "<group>"; };
+		223AABB01F0F25E100829D69 /* STCustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCustomTableView.m; sourceTree = "<group>"; };
+		223AABB11F0F25E100829D69 /* STSinaCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSinaCellContentView.h; sourceTree = "<group>"; };
+		223AABB21F0F25E100829D69 /* STSinaCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSinaCellContentView.m; sourceTree = "<group>"; };
+		223AABB31F0F25E100829D69 /* STSinaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSinaController.h; sourceTree = "<group>"; };
+		223AABB41F0F25E100829D69 /* STSinaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSinaController.m; sourceTree = "<group>"; };
+		223AABB51F0F25E100829D69 /* STSinaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSinaController.xib; sourceTree = "<group>"; };
+		223AABB61F0F25E100829D69 /* STSinaHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSinaHeaderView.h; sourceTree = "<group>"; };
+		223AABB71F0F25E100829D69 /* STSinaHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSinaHeaderView.m; sourceTree = "<group>"; };
+		223AABB81F0F25E100829D69 /* STSinaHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSinaHeaderView.xib; sourceTree = "<group>"; };
+		223AABB91F0F25E100829D69 /* STSinaSubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSinaSubTableViewController.h; sourceTree = "<group>"; };
+		223AABBA1F0F25E100829D69 /* STSinaSubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSinaSubTableViewController.m; sourceTree = "<group>"; };
+		223AABBB1F0F25E100829D69 /* STSinaToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSinaToolBar.h; sourceTree = "<group>"; };
+		223AABBC1F0F25E100829D69 /* STSinaToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSinaToolBar.m; sourceTree = "<group>"; };
+		223AABBD1F0F25E100829D69 /* STNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNormalViewController.h; sourceTree = "<group>"; };
+		223AABBE1F0F25E100829D69 /* STNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNormalViewController.m; sourceTree = "<group>"; };
+		223AABBF1F0F25E100829D69 /* STScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScrollView.h; sourceTree = "<group>"; };
+		223AABC01F0F25E100829D69 /* STScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScrollView.m; sourceTree = "<group>"; };
+		223AABC11F0F25E100829D69 /* STViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		223AABC21F0F25E100829D69 /* STViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		223AABC41F0F25E100829D69 /* STZhihuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STZhihuController.h; sourceTree = "<group>"; };
+		223AABC51F0F25E100829D69 /* STZhihuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STZhihuController.m; sourceTree = "<group>"; };
+		223AABC71F0F25E100829D69 /* background_image_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_image_default@2x.png"; sourceTree = "<group>"; };
+		223AABC81F0F25E100829D69 /* ScottPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottPageView.h; sourceTree = "<group>"; };
+		223AABC91F0F25E100829D69 /* ScottPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottPageView.m; sourceTree = "<group>"; };
+		223AABE11F0F25F400829D69 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		223AAB571F0F251300829D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223AAB701F0F251300829D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		223AAB511F0F251300829D69 = {
+			isa = PBXGroup;
+			children = (
+				223AAB821F0F257600829D69 /* STNavigationBar */,
+				223AAB5C1F0F251300829D69 /* STNavigationBarDemo */,
+				223AAB761F0F251300829D69 /* STNavigationBarDemoTests */,
+				223AAB5B1F0F251300829D69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		223AAB5B1F0F251300829D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223AAB5A1F0F251300829D69 /* STNavigationBarDemo.app */,
+				223AAB731F0F251300829D69 /* STNavigationBarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		223AAB5C1F0F251300829D69 /* STNavigationBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				223AAB961F0F25E100829D69 /* Classes */,
+				223AAB901F0F25B800829D69 /* STNavigationController.h */,
+				223AAB911F0F25B800829D69 /* STNavigationController.m */,
+				223AAB921F0F25B800829D69 /* STTabBarController.h */,
+				223AAB931F0F25B800829D69 /* STTabBarController.m */,
+				223AAB601F0F251300829D69 /* AppDelegate.h */,
+				223AAB611F0F251300829D69 /* AppDelegate.m */,
+				223AAB661F0F251300829D69 /* Main.storyboard */,
+				223AAB691F0F251300829D69 /* Assets.xcassets */,
+				223AAB6B1F0F251300829D69 /* LaunchScreen.storyboard */,
+				223AAB6E1F0F251300829D69 /* Info.plist */,
+				223AAB5D1F0F251300829D69 /* Supporting Files */,
+			);
+			path = STNavigationBarDemo;
+			sourceTree = "<group>";
+		};
+		223AAB5D1F0F251300829D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				223AAB5E1F0F251300829D69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		223AAB761F0F251300829D69 /* STNavigationBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				223AAB771F0F251300829D69 /* STNavigationBarDemoTests.m */,
+				223AAB791F0F251300829D69 /* Info.plist */,
+			);
+			path = STNavigationBarDemoTests;
+			sourceTree = "<group>";
+		};
+		223AAB821F0F257600829D69 /* STNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				223AAB831F0F257600829D69 /* STNavigationBar.h */,
+				223AAB841F0F257600829D69 /* UIColor+STExtension.h */,
+				223AAB851F0F257600829D69 /* UIColor+STExtension.m */,
+				223AAB861F0F257600829D69 /* UINavigationBar+STExtension.h */,
+				223AAB871F0F257600829D69 /* UINavigationBar+STExtension.m */,
+				223AAB881F0F257600829D69 /* UINavigationController+STExtension.h */,
+				223AAB891F0F257600829D69 /* UINavigationController+STExtension.m */,
+				223AAB8A1F0F257600829D69 /* UIViewController+STExtension.h */,
+				223AAB8B1F0F257600829D69 /* UIViewController+STExtension.m */,
+			);
+			path = STNavigationBar;
+			sourceTree = "<group>";
+		};
+		223AAB961F0F25E100829D69 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				223AAB971F0F25E100829D69 /* Custom */,
+				223AABA01F0F25E100829D69 /* Macro */,
+				223AABA11F0F25E100829D69 /* Normal */,
+				223AABC61F0F25E100829D69 /* ScottPageView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		223AAB971F0F25E100829D69 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				223AAB981F0F25E100829D69 /* STBaseViewController.h */,
+				223AAB991F0F25E100829D69 /* STBaseViewController.m */,
+				223AAB9A1F0F25E100829D69 /* STCustomViewController.h */,
+				223AAB9B1F0F25E100829D69 /* STCustomViewController.m */,
+				223AAB9C1F0F25E100829D69 /* STDIYViewController.h */,
+				223AAB9D1F0F25E100829D69 /* STDIYViewController.m */,
+				223AAB9E1F0F25E100829D69 /* STProfileViewController.h */,
+				223AAB9F1F0F25E100829D69 /* STProfileViewController.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		223AABA01F0F25E100829D69 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				223AABE11F0F25F400829D69 /* Macro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		223AABA11F0F25E100829D69 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				223AABA21F0F25E100829D69 /* AntForest */,
+				223AABA51F0F25E100829D69 /* QQZone */,
+				223AABAB1F0F25E100829D69 /* Sina */,
+				223AABBD1F0F25E100829D69 /* STNormalViewController.h */,
+				223AABBE1F0F25E100829D69 /* STNormalViewController.m */,
+				223AABBF1F0F25E100829D69 /* STScrollView.h */,
+				223AABC01F0F25E100829D69 /* STScrollView.m */,
+				223AABC11F0F25E100829D69 /* STViewController.h */,
+				223AABC21F0F25E100829D69 /* STViewController.m */,
+				223AABC31F0F25E100829D69 /* Zhihu */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		223AABA21F0F25E100829D69 /* AntForest */ = {
+			isa = PBXGroup;
+			children = (
+				223AABA31F0F25E100829D69 /* STAntForestController.h */,
+				223AABA41F0F25E100829D69 /* STAntForestController.m */,
+			);
+			path = AntForest;
+			sourceTree = "<group>";
+		};
+		223AABA51F0F25E100829D69 /* QQZone */ = {
+			isa = PBXGroup;
+			children = (
+				223AABA61F0F25E100829D69 /* STQQZoneController.h */,
+				223AABA71F0F25E100829D69 /* STQQZoneController.m */,
+				223AABA81F0F25E100829D69 /* STQQZoneHeaderView.h */,
+				223AABA91F0F25E100829D69 /* STQQZoneHeaderView.m */,
+				223AABAA1F0F25E100829D69 /* STQQZoneHeaderView.xib */,
+			);
+			path = QQZone;
+			sourceTree = "<group>";
+		};
+		223AABAB1F0F25E100829D69 /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				223AABAC1F0F25E100829D69 /* HMSegmentedControl */,
+				223AABAF1F0F25E100829D69 /* STCustomTableView.h */,
+				223AABB01F0F25E100829D69 /* STCustomTableView.m */,
+				223AABB11F0F25E100829D69 /* STSinaCellContentView.h */,
+				223AABB21F0F25E100829D69 /* STSinaCellContentView.m */,
+				223AABB31F0F25E100829D69 /* STSinaController.h */,
+				223AABB41F0F25E100829D69 /* STSinaController.m */,
+				223AABB51F0F25E100829D69 /* STSinaController.xib */,
+				223AABB61F0F25E100829D69 /* STSinaHeaderView.h */,
+				223AABB71F0F25E100829D69 /* STSinaHeaderView.m */,
+				223AABB81F0F25E100829D69 /* STSinaHeaderView.xib */,
+				223AABB91F0F25E100829D69 /* STSinaSubTableViewController.h */,
+				223AABBA1F0F25E100829D69 /* STSinaSubTableViewController.m */,
+				223AABBB1F0F25E100829D69 /* STSinaToolBar.h */,
+				223AABBC1F0F25E100829D69 /* STSinaToolBar.m */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		223AABAC1F0F25E100829D69 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				223AABAD1F0F25E100829D69 /* HMSegmentedControl.h */,
+				223AABAE1F0F25E100829D69 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		223AABC31F0F25E100829D69 /* Zhihu */ = {
+			isa = PBXGroup;
+			children = (
+				223AABC41F0F25E100829D69 /* STZhihuController.h */,
+				223AABC51F0F25E100829D69 /* STZhihuController.m */,
+			);
+			path = Zhihu;
+			sourceTree = "<group>";
+		};
+		223AABC61F0F25E100829D69 /* ScottPageView */ = {
+			isa = PBXGroup;
+			children = (
+				223AABC71F0F25E100829D69 /* background_image_default@2x.png */,
+				223AABC81F0F25E100829D69 /* ScottPageView.h */,
+				223AABC91F0F25E100829D69 /* ScottPageView.m */,
+			);
+			path = ScottPageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		223AAB591F0F251300829D69 /* STNavigationBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223AAB7C1F0F251300829D69 /* Build configuration list for PBXNativeTarget "STNavigationBarDemo" */;
+			buildPhases = (
+				223AAB561F0F251300829D69 /* Sources */,
+				223AAB571F0F251300829D69 /* Frameworks */,
+				223AAB581F0F251300829D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STNavigationBarDemo;
+			productName = STNavigationBarDemo;
+			productReference = 223AAB5A1F0F251300829D69 /* STNavigationBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		223AAB721F0F251300829D69 /* STNavigationBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223AAB7F1F0F251300829D69 /* Build configuration list for PBXNativeTarget "STNavigationBarDemoTests" */;
+			buildPhases = (
+				223AAB6F1F0F251300829D69 /* Sources */,
+				223AAB701F0F251300829D69 /* Frameworks */,
+				223AAB711F0F251300829D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223AAB751F0F251300829D69 /* PBXTargetDependency */,
+			);
+			name = STNavigationBarDemoTests;
+			productName = STNavigationBarDemoTests;
+			productReference = 223AAB731F0F251300829D69 /* STNavigationBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		223AAB521F0F251300829D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Scott;
+				TargetAttributes = {
+					223AAB591F0F251300829D69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					223AAB721F0F251300829D69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 223AAB591F0F251300829D69;
+					};
+				};
+			};
+			buildConfigurationList = 223AAB551F0F251300829D69 /* Build configuration list for PBXProject "STNavigationBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 223AAB511F0F251300829D69;
+			productRefGroup = 223AAB5B1F0F251300829D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				223AAB591F0F251300829D69 /* STNavigationBarDemo */,
+				223AAB721F0F251300829D69 /* STNavigationBarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		223AAB581F0F251300829D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223AABD61F0F25E100829D69 /* STSinaController.xib in Resources */,
+				223AABD11F0F25E100829D69 /* STQQZoneHeaderView.xib in Resources */,
+				223AABDF1F0F25E100829D69 /* background_image_default@2x.png in Resources */,
+				223AAB6D1F0F251300829D69 /* LaunchScreen.storyboard in Resources */,
+				223AAB6A1F0F251300829D69 /* Assets.xcassets in Resources */,
+				223AAB681F0F251300829D69 /* Main.storyboard in Resources */,
+				223AABD81F0F25E100829D69 /* STSinaHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223AAB711F0F251300829D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223AAB561F0F251300829D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223AAB8C1F0F257600829D69 /* UIColor+STExtension.m in Sources */,
+				223AABD91F0F25E100829D69 /* STSinaSubTableViewController.m in Sources */,
+				223AABD21F0F25E100829D69 /* HMSegmentedControl.m in Sources */,
+				223AAB8F1F0F257600829D69 /* UIViewController+STExtension.m in Sources */,
+				223AABCB1F0F25E100829D69 /* STCustomViewController.m in Sources */,
+				223AABD01F0F25E100829D69 /* STQQZoneHeaderView.m in Sources */,
+				223AAB8D1F0F257600829D69 /* UINavigationBar+STExtension.m in Sources */,
+				223AABE01F0F25E100829D69 /* ScottPageView.m in Sources */,
+				223AAB621F0F251300829D69 /* AppDelegate.m in Sources */,
+				223AABD71F0F25E100829D69 /* STSinaHeaderView.m in Sources */,
+				223AABCC1F0F25E100829D69 /* STDIYViewController.m in Sources */,
+				223AAB951F0F25B800829D69 /* STTabBarController.m in Sources */,
+				223AAB8E1F0F257600829D69 /* UINavigationController+STExtension.m in Sources */,
+				223AABD31F0F25E100829D69 /* STCustomTableView.m in Sources */,
+				223AABD51F0F25E100829D69 /* STSinaController.m in Sources */,
+				223AAB941F0F25B800829D69 /* STNavigationController.m in Sources */,
+				223AABD41F0F25E100829D69 /* STSinaCellContentView.m in Sources */,
+				223AAB5F1F0F251300829D69 /* main.m in Sources */,
+				223AABCA1F0F25E100829D69 /* STBaseViewController.m in Sources */,
+				223AABDC1F0F25E100829D69 /* STScrollView.m in Sources */,
+				223AABDE1F0F25E100829D69 /* STZhihuController.m in Sources */,
+				223AABCE1F0F25E100829D69 /* STAntForestController.m in Sources */,
+				223AABDA1F0F25E100829D69 /* STSinaToolBar.m in Sources */,
+				223AABCF1F0F25E100829D69 /* STQQZoneController.m in Sources */,
+				223AABDD1F0F25E100829D69 /* STViewController.m in Sources */,
+				223AABDB1F0F25E100829D69 /* STNormalViewController.m in Sources */,
+				223AABCD1F0F25E100829D69 /* STProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223AAB6F1F0F251300829D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223AAB781F0F251300829D69 /* STNavigationBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		223AAB751F0F251300829D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 223AAB591F0F251300829D69 /* STNavigationBarDemo */;
+			targetProxy = 223AAB741F0F251300829D69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		223AAB661F0F251300829D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223AAB671F0F251300829D69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		223AAB6B1F0F251300829D69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223AAB6C1F0F251300829D69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		223AAB7A1F0F251300829D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		223AAB7B1F0F251300829D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		223AAB7D1F0F251300829D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STNavigationBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scott.com.STNavigationBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		223AAB7E1F0F251300829D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STNavigationBarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scott.com.STNavigationBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		223AAB801F0F251300829D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STNavigationBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scott.com.STNavigationBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STNavigationBarDemo.app/STNavigationBarDemo";
+			};
+			name = Debug;
+		};
+		223AAB811F0F251300829D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STNavigationBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scott.com.STNavigationBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STNavigationBarDemo.app/STNavigationBarDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		223AAB551F0F251300829D69 /* Build configuration list for PBXProject "STNavigationBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223AAB7A1F0F251300829D69 /* Debug */,
+				223AAB7B1F0F251300829D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223AAB7C1F0F251300829D69 /* Build configuration list for PBXNativeTarget "STNavigationBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223AAB7D1F0F251300829D69 /* Debug */,
+				223AAB7E1F0F251300829D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		223AAB7F1F0F251300829D69 /* Build configuration list for PBXNativeTarget "STNavigationBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223AAB801F0F251300829D69 /* Debug */,
+				223AAB811F0F251300829D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 223AAB521F0F251300829D69 /* Project object */;
+}
