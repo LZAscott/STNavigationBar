@@ -2,7 +2,7 @@
 //  STNavigationBarDemoTests.m
 //  STNavigationBarDemoTests
 //
-//  Created by bopeng on 2017/7/7.
+//  Created by Scott_Mr on 2017/7/7.
 //  Copyright © 2017年 Scott. All rights reserved.
 //
 
