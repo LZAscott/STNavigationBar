@@ -9,6 +9,7 @@
 #import "STBaseViewController.h"
 #import "STNavigationBar.h"
 #import "Macro.h"
+#import "STNaviBar.h"
 
 @interface STBaseViewController ()
 
@@ -29,21 +30,27 @@
     [self st_setCustomNavigationBar:self.navBar];
     
     [self.view addSubview:self.navBar];
+    
     self.navBar.items = @[self.navItem];
     self.navBar.barTintColor = STMainNavBarColor;
     self.navBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
     self.navBar.tintColor = [UIColor whiteColor];
 }
 
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    
-    self.navBar.frame = CGRectMake(0, 0, CGRectGetWidth(self.navigationController.navigationBar.bounds), CGRectGetHeight(self.navigationController.navigationBar.bounds) + 20);
+- (UIView *)overlay {
+    if (_overlay == nil) {
+        _overlay = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, STStatusBarHeight + STNaviBarHeight)];
+        _overlay.userInteractionEnabled = NO;
+        _overlay.backgroundColor = STMainNavBarColor;
+        _overlay.alpha = 0;
+        _overlay.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    }
+    return _overlay;
 }
 
 - (UINavigationBar *)navBar {
     if (_navBar == nil) {
-        _navBar = [[UINavigationBar alloc] init];
+        _navBar = [[STNaviBar alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, STNaviBarHeight+STStatusBarHeight)];
     }
     return _navBar;
 }

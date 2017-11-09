@@ -2,7 +2,7 @@
 <img src="Images/logo.png" title="STNavigationBar" float=left>
 </p>
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/LZAscott/STNavigationBar) [![pod](https://img.shields.io/badge/pod-0.1.1-green.svg)](https://github.com/LZAscott/STNavigationBar) [![pod](https://img.shields.io/badge/platform-iOS8.0+-yellow.svg)](https://github.com/LZAscott/STNavigationBar) ![pod](https://img.shields.io/travis/rust-lang/rust/master.svg)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/LZAscott/STNavigationBar) [![pod](https://img.shields.io/badge/pod-0.1.2-green.svg)](https://github.com/LZAscott/STNavigationBar) [![pod](https://img.shields.io/badge/platform-iOS8.0+-yellow.svg)](https://github.com/LZAscott/STNavigationBar) ![pod](https://img.shields.io/travis/rust-lang/rust/master.svg)
 
 # 简介
 一行代码设置状态栏样式和导航栏背景颜色、标题、按钮、透明度以及全屏pop手势支持。
@@ -13,7 +13,6 @@
 - [x] 全屏pop手势返回
 - [x] 为单个控制器关闭pop手势支持
 - [x] 自定义pop手势范围
-- [x] 支持横竖屏
 - [x] 支持自定义UINavigationBar
 
 # Demo

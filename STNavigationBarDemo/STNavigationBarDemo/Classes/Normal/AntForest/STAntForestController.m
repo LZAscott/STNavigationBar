@@ -28,7 +28,11 @@ CGFloat STImageHeight = 480;
     
     self.title = @"蚂蚁森林";
     self.view.backgroundColor = [UIColor whiteColor];
-    self.tableView.contentInset = UIEdgeInsetsMake(STImageHeight - (STNaviBarHeight + STStatusBarHeight), 0, 0, 0);
+    CGFloat top = STImageHeight - (STNaviBarHeight + STStatusBarHeight);
+    if (@available(iOS 11.0, *)) {
+        top = STImageHeight;
+    }
+    self.tableView.contentInset = UIEdgeInsetsMake(top, 0, 0, 0);
     self.tableView.contentOffset = CGPointMake(0, -STImageHeight);
     
     [self.tableView addSubview:self.imageView];
@@ -38,7 +42,8 @@ CGFloat STImageHeight = 480;
     [self st_setNavigationBarBarTintColor:[UIColor whiteColor]];
     [self st_setNavigationBarBackgroundAlpha:0];
     
-//    [self st_setInteractivePopMaxAllowedInitialDistanceToLeftEdge:40];
+    // 设置右滑返回范围
+//    [self st_setInteractivePopMaxAllowedInitialDistanceToLeftEdge:140];
 }
 
 - (void)clickMore {

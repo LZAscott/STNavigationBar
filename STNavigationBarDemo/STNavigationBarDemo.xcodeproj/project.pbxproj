@@ -42,6 +42,7 @@
 		223AABDE1F0F25E100829D69 /* STZhihuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABC51F0F25E100829D69 /* STZhihuController.m */; };
 		223AABDF1F0F25E100829D69 /* background_image_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223AABC71F0F25E100829D69 /* background_image_default@2x.png */; };
 		223AABE01F0F25E100829D69 /* ScottPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 223AABC91F0F25E100829D69 /* ScottPageView.m */; };
+		22B93ED81F7C9B8100D0AD65 /* STNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B93ED71F7C9B8100D0AD65 /* STNaviBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		223AABC81F0F25E100829D69 /* ScottPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScottPageView.h; sourceTree = "<group>"; };
 		223AABC91F0F25E100829D69 /* ScottPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScottPageView.m; sourceTree = "<group>"; };
 		223AABE11F0F25F400829D69 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		22B93ED61F7C9B8100D0AD65 /* STNaviBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STNaviBar.h; sourceTree = "<group>"; };
+		22B93ED71F7C9B8100D0AD65 /* STNaviBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STNaviBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +232,8 @@
 			children = (
 				223AAB981F0F25E100829D69 /* STBaseViewController.h */,
 				223AAB991F0F25E100829D69 /* STBaseViewController.m */,
+				22B93ED61F7C9B8100D0AD65 /* STNaviBar.h */,
+				22B93ED71F7C9B8100D0AD65 /* STNaviBar.m */,
 				223AAB9A1F0F25E100829D69 /* STCustomViewController.h */,
 				223AAB9B1F0F25E100829D69 /* STCustomViewController.m */,
 				223AAB9C1F0F25E100829D69 /* STDIYViewController.h */,
@@ -384,6 +389,7 @@
 				TargetAttributes = {
 					223AAB591F0F251300829D69 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YJJPK3UMS6;
 						ProvisioningStyle = Automatic;
 					};
 					223AAB721F0F251300829D69 = {
@@ -461,6 +467,7 @@
 				223AAB5F1F0F251300829D69 /* main.m in Sources */,
 				223AABCA1F0F25E100829D69 /* STBaseViewController.m in Sources */,
 				223AABDC1F0F25E100829D69 /* STScrollView.m in Sources */,
+				22B93ED81F7C9B8100D0AD65 /* STNaviBar.m in Sources */,
 				223AABDE1F0F25E100829D69 /* STZhihuController.m in Sources */,
 				223AABCE1F0F25E100829D69 /* STAntForestController.m in Sources */,
 				223AABDA1F0F25E100829D69 /* STSinaToolBar.m in Sources */,
@@ -601,6 +608,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJJPK3UMS6;
 				INFOPLIST_FILE = STNavigationBarDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -613,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YJJPK3UMS6;
 				INFOPLIST_FILE = STNavigationBarDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -664,6 +673,7 @@
 				223AAB7E1F0F251300829D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		223AAB7F1F0F251300829D69 /* Build configuration list for PBXNativeTarget "STNavigationBarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -672,6 +682,7 @@
 				223AAB811F0F251300829D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -32,6 +32,13 @@
     [UIColor st_setDefaultNavigationBarTintColor:STNaviBarTintColor];
     [UIColor st_setDefaultNavigationBarTitleColor:STNaviBarTitleColor];
     [UIColor st_setDefaultStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    if (@available(iOS 11.0, *)) {
+        [UIScrollView appearance].contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        [UITableView appearance].estimatedRowHeight = 0;
+        [UITableView appearance].estimatedSectionFooterHeight = 0;
+        [UITableView appearance].estimatedSectionHeaderHeight = 0;
+    }
 
     return YES;
 }

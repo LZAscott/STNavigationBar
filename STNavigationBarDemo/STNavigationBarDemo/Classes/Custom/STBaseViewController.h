@@ -12,6 +12,6 @@
 
 @property (nonatomic, strong) UINavigationBar *navBar;
 @property (nonatomic, strong) UINavigationItem *navItem;
-
+@property (nonatomic, strong) UIView *overlay;
 
 @end

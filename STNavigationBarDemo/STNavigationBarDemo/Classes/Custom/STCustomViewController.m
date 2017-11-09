@@ -67,7 +67,7 @@
 
 - (UITableView *)tableView {
     if (_tableView == nil) {
-        CGRect rect = CGRectMake(0, STStatusBarHeight + STNaviBarHeight, kScreenWidth, kScreenHeight - STStatusBarHeight - STNaviBarHeight - 49);
+        CGRect rect = CGRectMake(0, STStatusBarHeight + STNaviBarHeight, kScreenWidth, kScreenHeight - STStatusBarHeight - STNaviBarHeight - STTabBarHeight);
         _tableView = [[UITableView alloc] initWithFrame:rect style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;

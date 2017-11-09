@@ -9,6 +9,8 @@
 #ifndef Macro_h
 #define Macro_h
 
+#define kDevice_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
 #define STMainNavBarColor [UIColor colorWithRed:0/255.0 green:175/255.0 blue:240/255.0 alpha:1]
 #define STMainViewColor [UIColor colorWithRed:126/255.0 green:126/255.0 blue:126/255.0 alpha:1]
 #define STNaviBarTintColor [UIColor whiteColor]

@@ -79,7 +79,8 @@ static char kSTCustomBarBackgroundViewKey;
 - (void)st_setBackgroundColor:(UIColor *)color {
     if (self.st_backgroundView == nil) {
         [self setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-        UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds) + 20)];
+        UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds) + CGRectGetHeight([UIApplication sharedApplication].statusBarFrame))];
+        
         backgroundView.userInteractionEnabled = NO;
         backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
         [self st_setBackgroundView:backgroundView];
@@ -100,7 +101,7 @@ static char kSTCustomBarBackgroundViewKey;
 - (void)st_setCustomBarBackgroundColor:(UIColor *)color {
     if (self.st_customBarBackgroundView == nil) {
         [self setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-        UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, -20, CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds) + 20)];
+        UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, -CGRectGetHeight([UIApplication sharedApplication].statusBarFrame), CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds) + CGRectGetHeight([UIApplication sharedApplication].statusBarFrame))];
         backgroundView.userInteractionEnabled = NO;
         backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [self st_setCustomBarBackgroundView:backgroundView];
@@ -119,13 +120,24 @@ static char kSTCustomBarBackgroundViewKey;
 
 // 设置背景alpha
 - (void)st_setBackgroundAlpha:(CGFloat)alpha {
-    UIView *barBackgroundView = self.subviews.firstObject;
-    barBackgroundView.alpha = alpha;
+    if (@available(iOS 11.0, *)) {
+        [self setShadowImage:[UIImage new]];
+        UIView *barBackgroundView = self.subviews.firstObject;
+        barBackgroundView.alpha = alpha;
+        [self st_backgroundView].alpha = alpha;
+    }else{
+        UIView *barBackgroundView = self.subviews.firstObject;
+        barBackgroundView.alpha = alpha;
+    }
 }
 // 获取背景alpha
 - (CGFloat)st_backgroundAlpha {
-    UIView *barBackgroundView = self.subviews.firstObject;
-    return barBackgroundView.alpha;
+    if (@available(iOS 11.0, *)) {
+        return [self st_backgroundView].alpha;
+    }else{
+        UIView *barBackgroundView = self.subviews.firstObject;
+        return barBackgroundView.alpha;
+    }
 }
 
 @end

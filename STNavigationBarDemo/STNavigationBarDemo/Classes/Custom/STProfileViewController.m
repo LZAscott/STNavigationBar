@@ -22,6 +22,8 @@ static CGFloat kHeaderViewHeight = 250.0;
 
 @implementation STProfileViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -30,6 +32,7 @@ static CGFloat kHeaderViewHeight = 250.0;
     self.tableView.tableHeaderView = [self headerView];
     
     [self.view insertSubview:self.navBar aboveSubview:self.tableView];
+    [self.view insertSubview:self.overlay belowSubview:self.navBar];
     
     self.navItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"< 返回" style:UIBarButtonItemStylePlain target:self action:@selector(back)];
     self.navItem.title = @"个人中心";
@@ -51,18 +54,32 @@ static CGFloat kHeaderViewHeight = 250.0;
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat offsetY = scrollView.contentOffset.y;
 
-    if (offsetY > 128.0) {
-        CGFloat alpha =  (offsetY - 128) / 64.0;
-        [self st_setNavigationBarBackgroundAlpha:alpha];
-        [self st_setNavigationBarTintColor:[[UIColor blackColor] colorWithAlphaComponent:alpha]];
-        [self st_setNavigationBarTitleColor:[[UIColor blackColor] colorWithAlphaComponent:alpha]];
+    if (offsetY > 185) {
+        self.overlay.alpha = 1;
+        [self st_setNavigationBarTintColor:[[UIColor blackColor] colorWithAlphaComponent:1]];
+        [self st_setNavigationBarTitleColor:[[UIColor blackColor] colorWithAlphaComponent:1]];
         [self st_setStatusBarStyle:UIStatusBarStyleDefault];
     }else{
-        [self st_setNavigationBarBackgroundAlpha:0];
+        CGFloat alpha = MAX((offsetY) / 185.0, 0.0);
+        self.overlay.alpha = alpha;
         [self st_setNavigationBarTintColor:[UIColor whiteColor]];
         [self st_setNavigationBarTitleColor:[UIColor whiteColor]];
         [self st_setStatusBarStyle:UIStatusBarStyleLightContent];
     }
+    
+//    if (offsetY > 128.0) {
+//        CGFloat alpha =  (offsetY - 128) / 64.0;
+//        NSLog(@"%f", alpha);
+//        [self st_setNavigationBarBackgroundAlpha:alpha];
+//        [self st_setNavigationBarTintColor:[[UIColor blackColor] colorWithAlphaComponent:alpha]];
+//        [self st_setNavigationBarTitleColor:[[UIColor blackColor] colorWithAlphaComponent:alpha]];
+//        [self st_setStatusBarStyle:UIStatusBarStyleDefault];
+//    }else{
+//        [self st_setNavigationBarBackgroundAlpha:0];
+//        [self st_setNavigationBarTintColor:[UIColor whiteColor]];
+//        [self st_setNavigationBarTitleColor:[UIColor whiteColor]];
+//        [self st_setStatusBarStyle:UIStatusBarStyleLightContent];
+//    }
 }
 
 
